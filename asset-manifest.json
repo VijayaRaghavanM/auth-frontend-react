@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/auth-frontend-react/static/css/main.52457415.chunk.css",
+    "main.js": "/auth-frontend-react/static/js/main.813b0bfb.chunk.js",
+    "main.js.map": "/auth-frontend-react/static/js/main.813b0bfb.chunk.js.map",
+    "runtime~main.js": "/auth-frontend-react/static/js/runtime~main.244b752f.js",
+    "runtime~main.js.map": "/auth-frontend-react/static/js/runtime~main.244b752f.js.map",
+    "static/js/2.d16ba94f.chunk.js": "/auth-frontend-react/static/js/2.d16ba94f.chunk.js",
+    "static/js/2.d16ba94f.chunk.js.map": "/auth-frontend-react/static/js/2.d16ba94f.chunk.js.map",
+    "index.html": "/auth-frontend-react/index.html",
+    "precache-manifest.1562990466d4665473695f7d866ba078.js": "/auth-frontend-react/precache-manifest.1562990466d4665473695f7d866ba078.js",
+    "service-worker.js": "/auth-frontend-react/service-worker.js",
+    "static/css/main.52457415.chunk.css.map": "/auth-frontend-react/static/css/main.52457415.chunk.css.map"
+  }
+}
