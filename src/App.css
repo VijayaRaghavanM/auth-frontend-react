@@ -1,33 +1,110 @@
+body {
+  background: rebeccapurple;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Card {
+  /* border: 1px solid gray; */
+  background: white;
+  /* width: 0%; */
+  padding: 5% 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Button {
+  padding: 10px 20px;
+  background: rgb(0, 140, 255);
+  color: azure;
+  border: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Button:hover {
+  background: rgb(45, 151, 223);
+}
+
+.Link {
+  border: 0px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.Link:hover {
+  border: 0px;
+  color: rgb(97, 97, 97);
+}
+
+.Link:active {
+  outline: none;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+}
+input {
+  font-size: 20px;
+  display: block;
+  border: 0px;
+  /* padding: 10px; */
+  margin: 30px 0px;
+  width: 100%;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.ErrorList {
+  background: rgb(240, 9, 48);
+  color: cornsilk;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  list-style: none;
+  border-radius: 5px;
+}
+
+.Error{
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }
